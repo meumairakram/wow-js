@@ -10518,7 +10518,7 @@ figcaption {
   }
 
   .logomobile.w--current {
-    width: 128rem;
+    max-width: 200px;
   }
 
   .div-block-17 {
