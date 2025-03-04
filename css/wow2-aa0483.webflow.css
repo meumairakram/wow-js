@@ -3089,7 +3089,6 @@ figcaption {
 
 .footer-link-3-col-wrap {
   grid-column-gap: 3rem;
-  /* grid-row-gap: 3rem; */
   justify-content: space-between;
   display: flex;
   flex-direction: column;
