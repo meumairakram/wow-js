@@ -8456,7 +8456,7 @@ figcaption {
 
 .icon_close_wrap {
   position: absolute;
-  inset: .5rem .9rem auto auto;
+  inset: 1rem 1rem auto auto;
 }
 
 .input_wrap {
