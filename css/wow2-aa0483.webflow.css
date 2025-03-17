@@ -11776,7 +11776,9 @@ figcaption {
 
 
   }
-
+  a.hire-emma-for-free.w-button {
+    color: #ffffff !important;
+  }
   .new-nav-container {
     border-radius: 8px;
     padding-left: 1.5rem;
