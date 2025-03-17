@@ -11770,6 +11770,13 @@ figcaption {
     font-size: 1.25rem;
   }
 
+  .hide-tablet a.hire-emma-for-free.w-button :hover{
+   
+    color:white !important;
+
+
+  }
+
   .new-nav-container {
     border-radius: 8px;
     padding-left: 1.5rem;
