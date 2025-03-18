@@ -7079,7 +7079,7 @@ figcaption {
   max-width: none;
   min-height: 160px;
   margin-left: 0;
-  margin-right: 24px;
+  margin-right: 0px;
   padding: 20px;
   display: flex;
   box-shadow: 0 9px 18px #091e4226;
