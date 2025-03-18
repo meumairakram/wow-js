@@ -7059,6 +7059,7 @@ figcaption {
 }
 
 .cards-v2-copy {
+  column-gap: 20px;
   letter-spacing: 0;
   flex-flow: row;
   width: 100%;
