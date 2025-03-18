@@ -7058,18 +7058,6 @@ figcaption {
   display: flex;
 }
 
-/* .cards-v2-copy {
-  letter-spacing: 0;
-  flex-flow: row;
-  width: 100%;
-  max-width: none;
-  margin-left: 0;
-  margin-right: 0;
-  font-size: 0;
-  display: flex;
-} */
-
-
 .cards-v2-copy {
   letter-spacing: 0;
   flex-flow: row;
@@ -7079,9 +7067,7 @@ figcaption {
   margin-right: 0;
   font-size: 0;
   display: flex;
-  column-gap: 20px;
 }
-
 
 .card-v2-copy {
   grid-column-gap: 8px;
