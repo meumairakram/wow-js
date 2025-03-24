@@ -24,7 +24,7 @@
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: flex;
 }
 
 .w-checkbox {
@@ -10415,7 +10415,7 @@ figcaption {
   }
 
   .text-group {
-    width: 100%;
+    width: auto;
     max-width: 728px;
   }
 
