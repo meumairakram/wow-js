@@ -8623,7 +8623,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 230px;
+  max-width: 226px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
@@ -9004,15 +9004,21 @@ figcaption {
 }
 
 .image-23 {
-  width: 20px;
-  height: 20px;
+  flex: 0 auto;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
   margin-right: 8px;
+  display: block;
 }
 
 .text-group {
   grid-column-gap: 0px;
   grid-row-gap: 4px;
-  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+  display: flex;
 }
 
 .text-block-28-copy {
@@ -9030,11 +9036,58 @@ figcaption {
 
 .text-block-28-copy-copy {
   color: var(--colors--black);
+  width: auto;
   padding-top: 0;
   font-family: Plus Jakarta Sans, sans-serif;
   font-size: 12px;
   font-weight: 500;
   line-height: 15px;
+  display: block;
+}
+
+.cost-per-profile {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #eff2f1;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 10px 10px 0;
+  display: flex;
+}
+
+.cost-per-profile-top {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff;
+  border-radius: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+  display: flex;
+}
+
+.cost-per-profile-bottom {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color: #fff;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+  display: flex;
+}
+
+.starter-cost {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 @media screen and (max-width: 991px) {
@@ -10825,6 +10878,10 @@ figcaption {
 
   .text-block-28-copy-copy {
     padding-top: 0;
+  }
+
+  .cost-per-profile, .cost-per-profile-top, .cost-per-profile-bottom {
+    padding: 10px;
   }
 }
 
@@ -14201,6 +14258,22 @@ figcaption {
   .text-group {
     grid-column-gap: 3px;
     grid-row-gap: 3px;
+    width: auto;
+  }
+
+  .cost-per-profile-top {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .div-cost-per {
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
   }
 }
 
