@@ -14195,7 +14195,8 @@ figcaption {
   }
 
   .abt_inner_section {
-    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
